@@ -1,5 +1,6 @@
 import React from 'react';
 import ForceGraph from 'react-force-graph-2d';
+import { testData } from './resources/testData';
 
 const graphData = {
   nodes: [
@@ -16,6 +17,7 @@ const graphData = {
 }
 
 function App() {
+  console.log(testData)
   return (
     <ForceGraph graphData={graphData} />
   );
