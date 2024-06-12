@@ -62,9 +62,11 @@ export const formatGraphData = (data: any): any => {
     data.forEach((i: {
         _fields: {
             labels: any;
-            elementId: any; properties: {
+            elementId: any;
+            properties: {
                 objectId: any;
-                name: any; parentId: any;
+                name: any;
+                parentId: any;
             };
         }[];
     }) => {
