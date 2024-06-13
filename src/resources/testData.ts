@@ -1,4 +1,5 @@
 export const testData = 	
+	
 [
   {
     "keys": [
@@ -8,27 +9,27 @@ export const testData =
     "_fields": [
       {
         "identity": {
-          "low": 6002,
+          "low": 8590,
           "high": 0
         },
         "labels": [
-          "ActorRelationshipBasisTermSet",
+          "CurrFundTermSet",
           "ENUM"
         ],
         "properties": {
           "acceptanceDate": "Tue Apr 25 00:00:00 MDT 2017",
-          "classId": "ActorRelationshipBasisTermSet",
-          "successor": "http://api.nsgreg.nga.mil/vocabulary/codelist/ActorRelationshipBasisTermSet",
+          "classId": "CurrFundTermSet",
+          "successor": "http://api.nsgreg.nga.mil/vocabulary/codelist/CurrFundTermSet",
           "amendedDate": "Tue Nov 28 00:00:00 MST 2017",
-          "definedBy": "http://nsgreg.nga.mil/voc/view?i=803310",
-          "name": "Actor Relationship Basis Term Set",
-          "domainComplete": "false",
+          "definedBy": "http://nsgreg.nga.mil/voc/view?i=825182",
+          "name": "Currency or Fund Term Set",
+          "domainComplete": "true",
           "category": "null",
-          "definitionTypePath": "https://nsgreg-api.nga.mil/vocabulary/ncv/ActorRelationshipBasisTermSet",
-          "objectId": "ActorRelationshipBasisTermSet",
-          "desc": "Definition: A reason for a relationship (cooperative or competitive) that an actor (organisation, social group, or person) has with another actor, as a specified set of terms.  Description: The reason(s) that one actor (organisation, social group, or person) has for cooperation or competition with another may reflect important values or concerns of the actor. Cooperative and competitive relationships may vary with circumstances. For example, tribes of different ethnicities may clash over cultural differences; however, those same tribes might form a cooperative relationship in circumstances of common economic need."
+          "definitionTypePath": "https://nsgreg-api.nga.mil/vocabulary/ncv/CurrFundTermSet",
+          "objectId": "CurrFundTermSet",
+          "desc": "Definition: A type of currency, as a specified set of terms.  Description: Currency consists of artefacts (typically, coins and banknotes) that serve as a physical medium of exchange, the value of which is established by a national government. Money on deposit (as in bank savings or funds) is denominated in a specified currency."
         },
-        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:6002"
+        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:8590"
       }
     ],
     "_fieldLookup": {
@@ -43,26 +44,26 @@ export const testData =
     "_fields": [
       {
         "identity": {
-          "low": 6003,
+          "low": 8591,
           "high": 0
         },
         "labels": [
-          "ActorRelationshipBasisTermSet",
+          "CurrFundTermSet",
           "ENUM_VAL"
         ],
         "properties": {
           "acceptanceDate": "Tue Apr 25 00:00:00 MDT 2017",
-          "classId": "ActorRelationshipBasisTermSet.civilConcern",
-          "name": "civilConcern",
-          "label": "Civil Concern (Actor Relationship Basis)",
+          "classId": "CurrFundTermSet.ADP",
+          "name": "ADP",
+          "label": "Andorran Peseta (Currency or Fund)",
           "category": "listedValue",
-          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/ActorRelationshipBasisTermSet/civilConcern",
-          "objectId": "ActorRelationshipBasisTermSet.civilConcern",
-          "parentId": "ActorRelationshipBasisTermSet",
-          "desc": "Definition: Commitment to concerns for the safety, security, resources, civil rights, and opportunities afforded to individuals, typically within a community.  Description: Civil concerns related to civil rights include, for example, education, social welfare, women's rights, marriage equality, and gun ownership. Civil concerns related to social issues of maintaining or improving quality of life include, for example, community health measures, healthcare availability, emergency services, and food security. Civil concerns are often shared by citizens taking an active part or interest in community services or activism, as well as by government professionals.",
-          "status": "superseded"
+          "objectId": "CurrFundTermSet.ADP",
+          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/CurrFundTermSet/ADP",
+          "parentId": "CurrFundTermSet",
+          "status": "superseded",
+          "desc": "Definition: A currency used in the country of ANDORRA prior to July 2003.  Description: [None Specified]"
         },
-        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:6003"
+        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:8591"
       }
     ],
     "_fieldLookup": {
@@ -77,26 +78,26 @@ export const testData =
     "_fields": [
       {
         "identity": {
-          "low": 6004,
+          "low": 8592,
           "high": 0
         },
         "labels": [
-          "ActorRelationshipBasisTermSet",
+          "CurrFundTermSet",
           "ENUM_VAL"
         ],
         "properties": {
           "acceptanceDate": "Tue Apr 25 00:00:00 MDT 2017",
-          "classId": "ActorRelationshipBasisTermSet.criminality",
-          "name": "criminality",
-          "label": "Criminality (Actor Relationship Basis)",
+          "classId": "CurrFundTermSet.AED",
+          "name": "AED",
+          "label": "UAE Dirham (Currency or Fund)",
           "category": "listedValue",
-          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/ActorRelationshipBasisTermSet/criminality",
-          "objectId": "ActorRelationshipBasisTermSet.criminality",
-          "parentId": "ActorRelationshipBasisTermSet",
-          "desc": "Definition: Support for and/or participation in activities that are illegal, or otherwise prohibited, in the jurisdiction applicable to those activities.  Description: Example criminal activities include theft, corruption, cyber-attack, violence, murder, and illegal trade of drugs, firearms, or humans. Illegal insurgent and revolutionary activities are also included.",
-          "status": "superseded"
+          "objectId": "CurrFundTermSet.AED",
+          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/CurrFundTermSet/AED",
+          "parentId": "CurrFundTermSet",
+          "status": "superseded",
+          "desc": "Definition: A currency in use in the country of UNITED ARAB EMIRATES.  Description: [None Specified]"
         },
-        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:6004"
+        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:8592"
       }
     ],
     "_fieldLookup": {
@@ -111,26 +112,26 @@ export const testData =
     "_fields": [
       {
         "identity": {
-          "low": 6005,
+          "low": 8593,
           "high": 0
         },
         "labels": [
-          "ActorRelationshipBasisTermSet",
+          "CurrFundTermSet",
           "ENUM_VAL"
         ],
         "properties": {
           "acceptanceDate": "Tue Apr 25 00:00:00 MDT 2017",
-          "classId": "ActorRelationshipBasisTermSet.economy",
-          "name": "economy",
-          "label": "Economy (Actor Relationship Basis)",
+          "classId": "CurrFundTermSet.AFA",
+          "name": "AFA",
+          "label": "Afghani (prior to January 2003) (Currency or Fund)",
           "category": "listedValue",
-          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/ActorRelationshipBasisTermSet/economy",
-          "objectId": "ActorRelationshipBasisTermSet.economy",
-          "parentId": "ActorRelationshipBasisTermSet",
-          "desc": "Definition: Interests that are based on economic activities and/or assets.  Description: Common economic interests may be shared by trading partners (who depend upon each other for products exchanged), by members of a cartel that controls distribution and/or pricing of a commodity (such as crude oil), by united labour interests (such as labour unions in sympathetic strikes or work stoppages), and small agricultural groups or handicraft producers who aid each other with shared equipment, transportation, or marketing.",
-          "status": "superseded"
+          "objectId": "CurrFundTermSet.AFA",
+          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/CurrFundTermSet/AFA",
+          "parentId": "CurrFundTermSet",
+          "status": "superseded",
+          "desc": "Definition: A currency used in the country of AFGHANISTAN prior to January 2003.  Description: [None Specified]"
         },
-        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:6005"
+        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:8593"
       }
     ],
     "_fieldLookup": {
@@ -145,26 +146,26 @@ export const testData =
     "_fields": [
       {
         "identity": {
-          "low": 6006,
+          "low": 8594,
           "high": 0
         },
         "labels": [
-          "ActorRelationshipBasisTermSet",
+          "CurrFundTermSet",
           "ENUM_VAL"
         ],
         "properties": {
           "acceptanceDate": "Tue Apr 25 00:00:00 MDT 2017",
-          "classId": "ActorRelationshipBasisTermSet.ethnicity",
-          "name": "ethnicity",
-          "label": "Ethnicity (Actor Relationship Basis)",
+          "classId": "CurrFundTermSet.AFN",
+          "name": "AFN",
+          "label": "Afghani (Currency or Fund)",
           "category": "listedValue",
-          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/ActorRelationshipBasisTermSet/ethnicity",
-          "objectId": "ActorRelationshipBasisTermSet.ethnicity",
-          "parentId": "ActorRelationshipBasisTermSet",
-          "desc": "Definition: Cultural identification based on shared (actual or presumed) ancestry, religious beliefs, cultural mores and practices, history, and/or linguistic usage.  Description: Cultural practices and interests shared by members of an ethnic group may include cultural traditions, rites and ceremonies, narratives and texts, taboos, and sacred locations.",
-          "status": "superseded"
+          "objectId": "CurrFundTermSet.AFN",
+          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/CurrFundTermSet/AFN",
+          "parentId": "CurrFundTermSet",
+          "status": "superseded",
+          "desc": "Definition: A currency in use in the country of AFGHANISTAN.  Description: [None Specified]"
         },
-        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:6006"
+        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:8594"
       }
     ],
     "_fieldLookup": {
@@ -179,26 +180,26 @@ export const testData =
     "_fields": [
       {
         "identity": {
-          "low": 6007,
+          "low": 8595,
           "high": 0
         },
         "labels": [
-          "ActorRelationshipBasisTermSet",
+          "CurrFundTermSet",
           "ENUM_VAL"
         ],
         "properties": {
           "acceptanceDate": "Tue Apr 25 00:00:00 MDT 2017",
-          "classId": "ActorRelationshipBasisTermSet.governmentPolitics",
-          "name": "governmentPolitics",
-          "label": "Government and Politics (Actor Relationship Basis)",
+          "classId": "CurrFundTermSet.ALK",
+          "name": "ALK",
+          "label": "Old Lek (Currency or Fund)",
           "category": "listedValue",
-          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/ActorRelationshipBasisTermSet/governmentPolitics",
-          "objectId": "ActorRelationshipBasisTermSet.governmentPolitics",
-          "parentId": "ActorRelationshipBasisTermSet",
-          "desc": "Definition: Commitment to issues of political governance and/or related political activity, typically in relation to government organisations, political positions, government administration, the enactment or enforcement of legislation, and/or judicial issues.  Description: Examples of groups and organisations based on government or political interests include political parties, parliamentary groups (in the U.S., Congressional member organisations), politburos, Political Action Committees (PACs), special-interest lobbying groups, and citizen activist groups focused on issues of law or government. Possible topics of shared interest include taxation, election reform, constitutional governance, and political campaigns.",
-          "status": "superseded"
+          "objectId": "CurrFundTermSet.ALK",
+          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/CurrFundTermSet/ALK",
+          "parentId": "CurrFundTermSet",
+          "status": "superseded",
+          "desc": "Definition: A currency used in the country of ALBANIA prior to December 1989.  Description: [None Specified]"
         },
-        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:6007"
+        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:8595"
       }
     ],
     "_fieldLookup": {
@@ -213,26 +214,26 @@ export const testData =
     "_fields": [
       {
         "identity": {
-          "low": 6008,
+          "low": 8596,
           "high": 0
         },
         "labels": [
-          "ActorRelationshipBasisTermSet",
+          "CurrFundTermSet",
           "ENUM_VAL"
         ],
         "properties": {
           "acceptanceDate": "Tue Apr 25 00:00:00 MDT 2017",
-          "classId": "ActorRelationshipBasisTermSet.insurgency",
-          "name": "insurgency",
-          "label": "Insurgency (Actor Relationship Basis)",
+          "classId": "CurrFundTermSet.ALL",
+          "name": "ALL",
+          "label": "Lek (Currency or Fund)",
           "category": "listedValue",
-          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/ActorRelationshipBasisTermSet/insurgency",
-          "objectId": "ActorRelationshipBasisTermSet.insurgency",
-          "parentId": "ActorRelationshipBasisTermSet",
-          "desc": "Definition: The organized use of subversion and violence by a group or movement that seeks to overthrow or force change of a governing authority.  Description: An insurgency is an organized, armed political struggle whose goal may be the seizure of power through revolutionary takeover and replacement of the existing government. In some cases, however, the goals of an insurgency may be more limited. For example, the insurgency may intend to break away from government control and establish an autonomous state within traditional ethnic or religious territorial bounds. The insurgency may also only intend to extract limited political concessions unattainable through less violent means.",
-          "status": "superseded"
+          "objectId": "CurrFundTermSet.ALL",
+          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/CurrFundTermSet/ALL",
+          "parentId": "CurrFundTermSet",
+          "status": "superseded",
+          "desc": "Definition: A currency in use in the country of ALBANIA.  Description: [None Specified]"
         },
-        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:6008"
+        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:8596"
       }
     ],
     "_fieldLookup": {
@@ -247,26 +248,26 @@ export const testData =
     "_fields": [
       {
         "identity": {
-          "low": 6009,
+          "low": 8597,
           "high": 0
         },
         "labels": [
-          "ActorRelationshipBasisTermSet",
+          "CurrFundTermSet",
           "ENUM_VAL"
         ],
         "properties": {
           "acceptanceDate": "Tue Apr 25 00:00:00 MDT 2017",
-          "classId": "ActorRelationshipBasisTermSet.kinship",
-          "name": "kinship",
-          "label": "Kinship (Actor Relationship Basis)",
+          "classId": "CurrFundTermSet.AMD",
+          "name": "AMD",
+          "label": "Armenian Dram (Currency or Fund)",
           "category": "listedValue",
-          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/ActorRelationshipBasisTermSet/kinship",
-          "objectId": "ActorRelationshipBasisTermSet.kinship",
-          "parentId": "ActorRelationshipBasisTermSet",
-          "desc": "Definition: Family identification or common activities based on connection by blood, marriage, adoption, and/or other family relationships.  Description: Familial relationships are typically viewed as closer links than affiliation with an ethnic group, although family relationships and ethnic affiliation may be related.",
-          "status": "superseded"
+          "objectId": "CurrFundTermSet.AMD",
+          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/CurrFundTermSet/AMD",
+          "parentId": "CurrFundTermSet",
+          "status": "superseded",
+          "desc": "Definition: A currency in use in the country of ARMENIA.  Description: [None Specified]"
         },
-        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:6009"
+        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:8597"
       }
     ],
     "_fieldLookup": {
@@ -281,26 +282,26 @@ export const testData =
     "_fields": [
       {
         "identity": {
-          "low": 6010,
+          "low": 8598,
           "high": 0
         },
         "labels": [
-          "ActorRelationshipBasisTermSet",
+          "CurrFundTermSet",
           "ENUM_VAL"
         ],
         "properties": {
           "acceptanceDate": "Tue Apr 25 00:00:00 MDT 2017",
-          "classId": "ActorRelationshipBasisTermSet.language",
-          "name": "language",
-          "label": "Language (Actor Relationship Basis)",
+          "classId": "CurrFundTermSet.ANG",
+          "name": "ANG",
+          "label": "Netherlands Antillean Guilder (Currency or Fund)",
           "category": "listedValue",
-          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/ActorRelationshipBasisTermSet/language",
-          "objectId": "ActorRelationshipBasisTermSet.language",
-          "parentId": "ActorRelationshipBasisTermSet",
-          "desc": "Definition: Cultural identification or common activities based on understanding, speaking, and/or writing one or more common languages.  Description: Members of a language-based social group communicate using a common language.",
-          "status": "superseded"
+          "objectId": "CurrFundTermSet.ANG",
+          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/CurrFundTermSet/ANG",
+          "parentId": "CurrFundTermSet",
+          "status": "superseded",
+          "desc": "Definition: A currency in use in the countries of CURACAO and SINT MAARTEN (DUTCH PART).  Description: Used in the country of NETHERLANDS ANTILLES prior to October 2010."
         },
-        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:6010"
+        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:8598"
       }
     ],
     "_fieldLookup": {
@@ -315,26 +316,26 @@ export const testData =
     "_fields": [
       {
         "identity": {
-          "low": 6011,
+          "low": 8599,
           "high": 0
         },
         "labels": [
-          "ActorRelationshipBasisTermSet",
+          "CurrFundTermSet",
           "ENUM_VAL"
         ],
         "properties": {
           "acceptanceDate": "Tue Apr 25 00:00:00 MDT 2017",
-          "classId": "ActorRelationshipBasisTermSet.legallyBindingAgreement",
-          "name": "legallyBindingAgreement",
-          "label": "Legally Binding Agreement (Actor Relationship Basis)",
+          "classId": "CurrFundTermSet.AOA",
+          "name": "AOA",
+          "label": "Kwanza (Currency or Fund)",
           "category": "listedValue",
-          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/ActorRelationshipBasisTermSet/legallyBindingAgreement",
-          "objectId": "ActorRelationshipBasisTermSet.legallyBindingAgreement",
-          "parentId": "ActorRelationshipBasisTermSet",
-          "desc": "Definition: An interest in responsibilities and/or privileges to which an actor (organisation, social group, or person) is committed based on documentation registered with a government authority.  Description: Allegiances between actors may be based on mutual commitments to a legally binding agreement.",
-          "status": "superseded"
+          "objectId": "CurrFundTermSet.AOA",
+          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/CurrFundTermSet/AOA",
+          "parentId": "CurrFundTermSet",
+          "status": "superseded",
+          "desc": "Definition: A currency in use in the country of ANGOLA.  Description: [None Specified]"
         },
-        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:6011"
+        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:8599"
       }
     ],
     "_fieldLookup": {
@@ -349,26 +350,26 @@ export const testData =
     "_fields": [
       {
         "identity": {
-          "low": 6012,
+          "low": 8600,
           "high": 0
         },
         "labels": [
-          "ActorRelationshipBasisTermSet",
+          "CurrFundTermSet",
           "ENUM_VAL"
         ],
         "properties": {
           "acceptanceDate": "Tue Apr 25 00:00:00 MDT 2017",
-          "classId": "ActorRelationshipBasisTermSet.politicalIdeology",
-          "name": "politicalIdeology",
-          "label": "Political Ideology (Actor Relationship Basis)",
+          "classId": "CurrFundTermSet.AOK",
+          "name": "AOK",
+          "label": "Kwanza (prior to March 1991) (Currency or Fund)",
           "category": "listedValue",
-          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/ActorRelationshipBasisTermSet/politicalIdeology",
-          "objectId": "ActorRelationshipBasisTermSet.politicalIdeology",
-          "parentId": "ActorRelationshipBasisTermSet",
-          "desc": "Definition: Common interests or activities in support of a system of beliefs centrally concerned with political principles about the basis of government, its organisation, and the rights and responsibilities of rulers and ruled.  Description: Political ideology often includes a component concerned with economic principles, such as property rights. Examples of a political ideology as the foundation for a group or organisation include Chinese communism (Chinese Communist Party), Scottish nationalism (Scottish National Party), and Pan-Arabism (Arab Socialist Ba'ath Party). A political party need not share a uniform political ideology. A political party may accommodate diverse political ideologies in pursuit of a pragmatic political agenda. Factions within broader political parties (such as the Tea Party within the U.S. Republican Party) may identify with a political ideology that is not shared across the larger party.",
-          "status": "superseded"
+          "objectId": "CurrFundTermSet.AOK",
+          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/CurrFundTermSet/AOK",
+          "parentId": "CurrFundTermSet",
+          "status": "superseded",
+          "desc": "Definition: A currency used in the country of ANGOLA prior to March 1991.  Description: [None Specified]"
         },
-        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:6012"
+        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:8600"
       }
     ],
     "_fieldLookup": {
@@ -383,26 +384,26 @@ export const testData =
     "_fields": [
       {
         "identity": {
-          "low": 6013,
+          "low": 8601,
           "high": 0
         },
         "labels": [
-          "ActorRelationshipBasisTermSet",
+          "CurrFundTermSet",
           "ENUM_VAL"
         ],
         "properties": {
           "acceptanceDate": "Tue Apr 25 00:00:00 MDT 2017",
-          "classId": "ActorRelationshipBasisTermSet.religion",
-          "name": "religion",
-          "label": "Religion (Actor Relationship Basis)",
+          "classId": "CurrFundTermSet.AON",
+          "name": "AON",
+          "label": "New Kwanza (Currency or Fund)",
           "category": "listedValue",
-          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/ActorRelationshipBasisTermSet/religion",
-          "objectId": "ActorRelationshipBasisTermSet.religion",
-          "parentId": "ActorRelationshipBasisTermSet",
-          "desc": "Definition: Cultural identification with religious or faith-based beliefs and practices, and/or promotion of conditions advocated by a religion.  Description: Religion may be considered a set of beliefs concerning the cause, nature, and purpose of the universe, especially when considered as the creation of a superhuman agency or agencies, usually involving devotional and ritual observances, and often containing a moral code of conduct.",
-          "status": "superseded"
+          "objectId": "CurrFundTermSet.AON",
+          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/CurrFundTermSet/AON",
+          "parentId": "CurrFundTermSet",
+          "status": "superseded",
+          "desc": "Definition: A currency used in the country of ANGOLA prior to February 2000.  Description: [None Specified]"
         },
-        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:6013"
+        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:8601"
       }
     ],
     "_fieldLookup": {
@@ -417,26 +418,434 @@ export const testData =
     "_fields": [
       {
         "identity": {
-          "low": 6014,
+          "low": 8602,
           "high": 0
         },
         "labels": [
-          "ActorRelationshipBasisTermSet",
+          "CurrFundTermSet",
           "ENUM_VAL"
         ],
         "properties": {
           "acceptanceDate": "Tue Apr 25 00:00:00 MDT 2017",
-          "classId": "ActorRelationshipBasisTermSet.tribal",
-          "name": "tribal",
-          "label": "Tribal (Actor Relationship Basis)",
+          "classId": "CurrFundTermSet.AOR",
+          "name": "AOR",
+          "label": "Kwanza Reajustado (Currency or Fund)",
           "category": "listedValue",
-          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/ActorRelationshipBasisTermSet/tribal",
-          "objectId": "ActorRelationshipBasisTermSet.tribal",
-          "parentId": "ActorRelationshipBasisTermSet",
-          "desc": "Definition: Common interests, activities, and/or assets that are based in tribal concerns, including social status as well as property.  Description: A tribe is a kinship-based ethnic group forming a close community under a leader (for example, a chief).",
-          "status": "superseded"
+          "objectId": "CurrFundTermSet.AOR",
+          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/CurrFundTermSet/AOR",
+          "parentId": "CurrFundTermSet",
+          "status": "superseded",
+          "desc": "Definition: A currency used in the country of ANGOLA prior to February 2000.  Description: [None Specified]"
         },
-        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:6014"
+        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:8602"
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 8603,
+          "high": 0
+        },
+        "labels": [
+          "CurrFundTermSet",
+          "ENUM_VAL"
+        ],
+        "properties": {
+          "acceptanceDate": "Tue Apr 25 00:00:00 MDT 2017",
+          "classId": "CurrFundTermSet.ARA",
+          "name": "ARA",
+          "label": "Austral (Currency or Fund)",
+          "category": "listedValue",
+          "objectId": "CurrFundTermSet.ARA",
+          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/CurrFundTermSet/ARA",
+          "parentId": "CurrFundTermSet",
+          "status": "superseded",
+          "desc": "Definition: A currency used in the country of ARGENTINA prior to January 1992.  Description: [None Specified]"
+        },
+        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:8603"
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 8604,
+          "high": 0
+        },
+        "labels": [
+          "CurrFundTermSet",
+          "ENUM_VAL"
+        ],
+        "properties": {
+          "acceptanceDate": "Tue Apr 25 00:00:00 MDT 2017",
+          "classId": "CurrFundTermSet.ARP",
+          "name": "ARP",
+          "label": "Peso Argentino (Currency or Fund)",
+          "category": "listedValue",
+          "objectId": "CurrFundTermSet.ARP",
+          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/CurrFundTermSet/ARP",
+          "parentId": "CurrFundTermSet",
+          "status": "superseded",
+          "desc": "Definition: A currency used in the country of ARGENTINA prior to July 1985.  Description: [None Specified]"
+        },
+        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:8604"
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 8605,
+          "high": 0
+        },
+        "labels": [
+          "CurrFundTermSet",
+          "ENUM_VAL"
+        ],
+        "properties": {
+          "acceptanceDate": "Tue Apr 25 00:00:00 MDT 2017",
+          "classId": "CurrFundTermSet.ARS",
+          "name": "ARS",
+          "label": "Argentine Peso (Currency or Fund)",
+          "category": "listedValue",
+          "objectId": "CurrFundTermSet.ARS",
+          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/CurrFundTermSet/ARS",
+          "parentId": "CurrFundTermSet",
+          "status": "superseded",
+          "desc": "Definition: A currency in use in the country of ARGENTINA.  Description: [None Specified]"
+        },
+        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:8605"
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 8606,
+          "high": 0
+        },
+        "labels": [
+          "CurrFundTermSet",
+          "ENUM_VAL"
+        ],
+        "properties": {
+          "acceptanceDate": "Tue Apr 25 00:00:00 MDT 2017",
+          "classId": "CurrFundTermSet.ARY",
+          "name": "ARY",
+          "label": "Peso (Currency or Fund)",
+          "category": "listedValue",
+          "objectId": "CurrFundTermSet.ARY",
+          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/CurrFundTermSet/ARY",
+          "parentId": "CurrFundTermSet",
+          "status": "superseded",
+          "desc": "Definition: A currency used in the country of ARGENTINA prior to the period 1989 to 1990.  Description: [None Specified]"
+        },
+        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:8606"
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 8607,
+          "high": 0
+        },
+        "labels": [
+          "CurrFundTermSet",
+          "ENUM_VAL"
+        ],
+        "properties": {
+          "acceptanceDate": "Tue Apr 25 00:00:00 MDT 2017",
+          "classId": "CurrFundTermSet.ATS",
+          "name": "ATS",
+          "label": "Schilling (Currency or Fund)",
+          "category": "listedValue",
+          "objectId": "CurrFundTermSet.ATS",
+          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/CurrFundTermSet/ATS",
+          "parentId": "CurrFundTermSet",
+          "status": "superseded",
+          "desc": "Definition: A currency used in the country of AUSTRIA prior to March 2002.  Description: [None Specified]"
+        },
+        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:8607"
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 8608,
+          "high": 0
+        },
+        "labels": [
+          "CurrFundTermSet",
+          "ENUM_VAL"
+        ],
+        "properties": {
+          "acceptanceDate": "Tue Apr 25 00:00:00 MDT 2017",
+          "classId": "CurrFundTermSet.AUD",
+          "name": "AUD",
+          "label": "Australian Dollar (Currency or Fund)",
+          "category": "listedValue",
+          "objectId": "CurrFundTermSet.AUD",
+          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/CurrFundTermSet/AUD",
+          "parentId": "CurrFundTermSet",
+          "status": "superseded",
+          "desc": "Definition: A currency in use in the countries of AUSTRALIA, CHRISTMAS ISLAND, COCOS (KEELING) ISLANDS, HEARD ISLAND AND McDONALD ISLANDS, KIRIBATI, NAURU, NORFOLK ISLAND, and TUVALU.  Description: [None Specified]"
+        },
+        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:8608"
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 8609,
+          "high": 0
+        },
+        "labels": [
+          "CurrFundTermSet",
+          "ENUM_VAL"
+        ],
+        "properties": {
+          "acceptanceDate": "Tue Apr 25 00:00:00 MDT 2017",
+          "classId": "CurrFundTermSet.AWG",
+          "name": "AWG",
+          "label": "Aruban Florin (Currency or Fund)",
+          "category": "listedValue",
+          "objectId": "CurrFundTermSet.AWG",
+          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/CurrFundTermSet/AWG",
+          "parentId": "CurrFundTermSet",
+          "status": "superseded",
+          "desc": "Definition: A currency in use in the country of ARUBA.  Description: [None Specified]"
+        },
+        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:8609"
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 8610,
+          "high": 0
+        },
+        "labels": [
+          "CurrFundTermSet",
+          "ENUM_VAL"
+        ],
+        "properties": {
+          "acceptanceDate": "Tue Apr 25 00:00:00 MDT 2017",
+          "classId": "CurrFundTermSet.AYM",
+          "name": "AYM",
+          "label": "Azerbaijan Manat (prior to October 2005) (Currency or Fund)",
+          "category": "listedValue",
+          "objectId": "CurrFundTermSet.AYM",
+          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/CurrFundTermSet/AYM",
+          "parentId": "CurrFundTermSet",
+          "status": "superseded",
+          "desc": "Definition: A currency used in the country of AZERBAIJAN prior to October 2005.  Description: [None Specified]"
+        },
+        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:8610"
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 8611,
+          "high": 0
+        },
+        "labels": [
+          "CurrFundTermSet",
+          "ENUM_VAL"
+        ],
+        "properties": {
+          "acceptanceDate": "Tue Apr 25 00:00:00 MDT 2017",
+          "classId": "CurrFundTermSet.AZM",
+          "name": "AZM",
+          "label": "Azerbaijanian Manat (prior to December 2005) (Currency or Fund)",
+          "category": "listedValue",
+          "objectId": "CurrFundTermSet.AZM",
+          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/CurrFundTermSet/AZM",
+          "parentId": "CurrFundTermSet",
+          "status": "superseded",
+          "desc": "Definition: A currency used in the country of AZERBAIJAN prior to December 2005.  Description: [None Specified]"
+        },
+        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:8611"
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 8612,
+          "high": 0
+        },
+        "labels": [
+          "CurrFundTermSet",
+          "ENUM_VAL"
+        ],
+        "properties": {
+          "acceptanceDate": "Tue Apr 25 00:00:00 MDT 2017",
+          "classId": "CurrFundTermSet.AZN",
+          "name": "AZN",
+          "label": "Azerbaijanian Manat (Currency or Fund)",
+          "category": "listedValue",
+          "objectId": "CurrFundTermSet.AZN",
+          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/CurrFundTermSet/AZN",
+          "parentId": "CurrFundTermSet",
+          "status": "superseded",
+          "desc": "Definition: A currency in use in the country of AZERBAIJAN.  Description: [None Specified]"
+        },
+        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:8612"
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 8613,
+          "high": 0
+        },
+        "labels": [
+          "CurrFundTermSet",
+          "ENUM_VAL"
+        ],
+        "properties": {
+          "acceptanceDate": "Tue Apr 25 00:00:00 MDT 2017",
+          "classId": "CurrFundTermSet.BAD",
+          "name": "BAD",
+          "label": "Dinar (Currency or Fund)",
+          "category": "listedValue",
+          "objectId": "CurrFundTermSet.BAD",
+          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/CurrFundTermSet/BAD",
+          "parentId": "CurrFundTermSet",
+          "status": "superseded",
+          "desc": "Definition: A currency used in the country of BOSNIA AND HERZEGOVINA prior to July 1997.  Description: [None Specified]"
+        },
+        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:8613"
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 8614,
+          "high": 0
+        },
+        "labels": [
+          "CurrFundTermSet",
+          "ENUM_VAL"
+        ],
+        "properties": {
+          "acceptanceDate": "Tue Apr 25 00:00:00 MDT 2017",
+          "classId": "CurrFundTermSet.BAM",
+          "name": "BAM",
+          "label": "Convertible Mark (Currency or Fund)",
+          "category": "listedValue",
+          "objectId": "CurrFundTermSet.BAM",
+          "definitionTypePath": "http://api.nsgreg.nga.mil/vocabulary/ncv/CurrFundTermSet/BAM",
+          "parentId": "CurrFundTermSet",
+          "status": "superseded",
+          "desc": "Definition: A currency in use in the country of BOSNIA AND HERZEGOVINA.  Description: [None Specified]"
+        },
+        "elementId": "4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:8614"
       }
     ],
     "_fieldLookup": {

@@ -79,7 +79,7 @@ export const formatGraphData = (data: any): any => {
         // fill links
         links.push({
             source: i._fields[0].elementId,
-            target: '4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:6002' //i._fields[0].properties.parentId || i._fields[0].properties.objectId
+            target: '4:bbe38368-3d4a-4f0c-971d-5e3ff5f1a337:8590' //i._fields[0].properties.parentId || i._fields[0].properties.objectId
         })
     })
 
